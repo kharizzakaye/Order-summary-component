@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body
+{
+    background-color: rgb(224, 232, 255);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card
+{
+    border-radius: 1em;
+    font-family: 'Red Hat Display';
+}
+
+.card-img-top
+{
+    border-radius: 1em 1em 0em 0em;
+}
+
+.card-title
+{
+    font-weight: 900;
+    font-size: x-large;
+    
+}
+
+.card-body
+{
+    padding: 40px 43px 40px 43px;
+    font-size: 16px;
+}
+
+.card-text
+{
+    color: gray;
+}
+
+#PaymentBtn
+{
+    background-color: darkblue;
+}
+
+#PremiumPlan
+{
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 0.5em;
+}
+
+.annualText
+{
+    margin-bottom: 0px;
+}
+
+#AnnualPlan
+{
+    font-weight: 700;
+}
+
+#AnnualPrice
+{
+    color: gray;
+}
+
+#ChangeLink
+{
+    text-decoration: underline;
+    color: darkblue;
+    font-size: small;
+    font-weight: 700;
+}
+
+#ChangeLink:hover
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+#PaymentBtn
+{
+    border-radius: 0.5em;
+    font-size: small;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#PaymentBtn:hover
+{
+    background-color: blueviolet;
+}
+
+#CancelBtn
+{
+    font-size: small;
+    font-weight: 700;
+    color: gray;
+}
+
+#CancelBtn:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+#ChangeArea
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        background-color: rgb(224, 232, 255);
+        background-image: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card-body
+    {
+        padding: 25px;
+    }
+
+    .card-title
+    {
+        font-size: x-large;
+    }
+
+    .card-text
+    {
+        font-size: 14px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    #IconImg
+    {
+        width: 10%;
+    }
+
+    #AnnualDiv
+    {
+        width: 45%;
+        margin-left: 35px;
+    }
+
+    #ChangeArea
+    {
+        width: 30%;
+        pad: 0px;
+    }
+
+    .annualText
+    {
+        font-size: 14px;
+    }
+
+    #AnnualPlan
+    {
+        font-weight: 900;
+    }
+
+    #ChangeLink
+    {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    /* .card-body
+    {
+        padding: 20px;
+    } */
+}
